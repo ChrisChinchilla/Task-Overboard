@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 import '/app_state.dart';
 import 'package:provider/provider.dart';
@@ -21,7 +19,7 @@ class _ResponseDisplayState extends State<ResponseDisplay> {
 
   void getToDosfromApi() async {
     AppState().fetchData().then((response) {
-      window.console.debug(response);
+      // window.console.debug(response);
 
       setState(() {
         Iterable list = json.decode(response);
