@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		242CA0A42B40A1BF002FF555 /* Task_OverboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242CA0A32B40A1BF002FF555 /* Task_OverboardApp.swift */; };
+		242CA0A62B40A1BF002FF555 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242CA0A52B40A1BF002FF555 /* ContentView.swift */; };
+		242CA0A82B40A1C0002FF555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 242CA0A72B40A1C0002FF555 /* Assets.xcassets */; };
+		242CA0AB2B40A1C0002FF555 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 242CA0AA2B40A1C0002FF555 /* Preview Assets.xcassets */; };
+		242CA0B62B40A1C0002FF555 /* Task_OverboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242CA0B52B40A1C0002FF555 /* Task_OverboardTests.swift */; };
+		242CA0C02B40A1C0002FF555 /* Task_OverboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242CA0BF2B40A1C0002FF555 /* Task_OverboardUITests.swift */; };
+		242CA0C22B40A1C0002FF555 /* Task_OverboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242CA0C12B40A1C0002FF555 /* Task_OverboardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		242CA0B22B40A1C0002FF555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 242CA0982B40A1BF002FF555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 242CA09F2B40A1BF002FF555;
+			remoteInfo = "Task Overboard";
+		};
+		242CA0BC2B40A1C0002FF555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 242CA0982B40A1BF002FF555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 242CA09F2B40A1BF002FF555;
+			remoteInfo = "Task Overboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		242CA0A02B40A1BF002FF555 /* Task Overboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task Overboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		242CA0A32B40A1BF002FF555 /* Task_OverboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_OverboardApp.swift; sourceTree = "<group>"; };
+		242CA0A52B40A1BF002FF555 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		242CA0A72B40A1C0002FF555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		242CA0AA2B40A1C0002FF555 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		242CA0AC2B40A1C0002FF555 /* Task_Overboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Task_Overboard.entitlements; sourceTree = "<group>"; };
+		242CA0B12B40A1C0002FF555 /* Task OverboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Task OverboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		242CA0B52B40A1C0002FF555 /* Task_OverboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_OverboardTests.swift; sourceTree = "<group>"; };
+		242CA0BB2B40A1C0002FF555 /* Task OverboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Task OverboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		242CA0BF2B40A1C0002FF555 /* Task_OverboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_OverboardUITests.swift; sourceTree = "<group>"; };
+		242CA0C12B40A1C0002FF555 /* Task_OverboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_OverboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		242CA09D2B40A1BF002FF555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242CA0AE2B40A1C0002FF555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242CA0B82B40A1C0002FF555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		242CA0972B40A1BF002FF555 = {
+			isa = PBXGroup;
+			children = (
+				242CA0A22B40A1BF002FF555 /* Task Overboard */,
+				242CA0B42B40A1C0002FF555 /* Task OverboardTests */,
+				242CA0BE2B40A1C0002FF555 /* Task OverboardUITests */,
+				242CA0A12B40A1BF002FF555 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		242CA0A12B40A1BF002FF555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				242CA0A02B40A1BF002FF555 /* Task Overboard.app */,
+				242CA0B12B40A1C0002FF555 /* Task OverboardTests.xctest */,
+				242CA0BB2B40A1C0002FF555 /* Task OverboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		242CA0A22B40A1BF002FF555 /* Task Overboard */ = {
+			isa = PBXGroup;
+			children = (
+				242CA0A32B40A1BF002FF555 /* Task_OverboardApp.swift */,
+				242CA0A52B40A1BF002FF555 /* ContentView.swift */,
+				242CA0A72B40A1C0002FF555 /* Assets.xcassets */,
+				242CA0AC2B40A1C0002FF555 /* Task_Overboard.entitlements */,
+				242CA0A92B40A1C0002FF555 /* Preview Content */,
+			);
+			path = "Task Overboard";
+			sourceTree = "<group>";
+		};
+		242CA0A92B40A1C0002FF555 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				242CA0AA2B40A1C0002FF555 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		242CA0B42B40A1C0002FF555 /* Task OverboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				242CA0B52B40A1C0002FF555 /* Task_OverboardTests.swift */,
+			);
+			path = "Task OverboardTests";
+			sourceTree = "<group>";
+		};
+		242CA0BE2B40A1C0002FF555 /* Task OverboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				242CA0BF2B40A1C0002FF555 /* Task_OverboardUITests.swift */,
+				242CA0C12B40A1C0002FF555 /* Task_OverboardUITestsLaunchTests.swift */,
+			);
+			path = "Task OverboardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		242CA09F2B40A1BF002FF555 /* Task Overboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242CA0C52B40A1C0002FF555 /* Build configuration list for PBXNativeTarget "Task Overboard" */;
+			buildPhases = (
+				242CA09C2B40A1BF002FF555 /* Sources */,
+				242CA09D2B40A1BF002FF555 /* Frameworks */,
+				242CA09E2B40A1BF002FF555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Task Overboard";
+			productName = "Task Overboard";
+			productReference = 242CA0A02B40A1BF002FF555 /* Task Overboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		242CA0B02B40A1C0002FF555 /* Task OverboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242CA0C82B40A1C0002FF555 /* Build configuration list for PBXNativeTarget "Task OverboardTests" */;
+			buildPhases = (
+				242CA0AD2B40A1C0002FF555 /* Sources */,
+				242CA0AE2B40A1C0002FF555 /* Frameworks */,
+				242CA0AF2B40A1C0002FF555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				242CA0B32B40A1C0002FF555 /* PBXTargetDependency */,
+			);
+			name = "Task OverboardTests";
+			productName = "Task OverboardTests";
+			productReference = 242CA0B12B40A1C0002FF555 /* Task OverboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		242CA0BA2B40A1C0002FF555 /* Task OverboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242CA0CB2B40A1C0002FF555 /* Build configuration list for PBXNativeTarget "Task OverboardUITests" */;
+			buildPhases = (
+				242CA0B72B40A1C0002FF555 /* Sources */,
+				242CA0B82B40A1C0002FF555 /* Frameworks */,
+				242CA0B92B40A1C0002FF555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				242CA0BD2B40A1C0002FF555 /* PBXTargetDependency */,
+			);
+			name = "Task OverboardUITests";
+			productName = "Task OverboardUITests";
+			productReference = 242CA0BB2B40A1C0002FF555 /* Task OverboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		242CA0982B40A1BF002FF555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					242CA09F2B40A1BF002FF555 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					242CA0B02B40A1C0002FF555 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 242CA09F2B40A1BF002FF555;
+					};
+					242CA0BA2B40A1C0002FF555 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 242CA09F2B40A1BF002FF555;
+					};
+				};
+			};
+			buildConfigurationList = 242CA09B2B40A1BF002FF555 /* Build configuration list for PBXProject "Task Overboard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 242CA0972B40A1BF002FF555;
+			productRefGroup = 242CA0A12B40A1BF002FF555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				242CA09F2B40A1BF002FF555 /* Task Overboard */,
+				242CA0B02B40A1C0002FF555 /* Task OverboardTests */,
+				242CA0BA2B40A1C0002FF555 /* Task OverboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		242CA09E2B40A1BF002FF555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242CA0AB2B40A1C0002FF555 /* Preview Assets.xcassets in Resources */,
+				242CA0A82B40A1C0002FF555 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242CA0AF2B40A1C0002FF555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242CA0B92B40A1C0002FF555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		242CA09C2B40A1BF002FF555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242CA0A62B40A1BF002FF555 /* ContentView.swift in Sources */,
+				242CA0A42B40A1BF002FF555 /* Task_OverboardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242CA0AD2B40A1C0002FF555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242CA0B62B40A1C0002FF555 /* Task_OverboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242CA0B72B40A1C0002FF555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242CA0C22B40A1C0002FF555 /* Task_OverboardUITestsLaunchTests.swift in Sources */,
+				242CA0C02B40A1C0002FF555 /* Task_OverboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		242CA0B32B40A1C0002FF555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 242CA09F2B40A1BF002FF555 /* Task Overboard */;
+			targetProxy = 242CA0B22B40A1C0002FF555 /* PBXContainerItemProxy */;
+		};
+		242CA0BD2B40A1C0002FF555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 242CA09F2B40A1BF002FF555 /* Task Overboard */;
+			targetProxy = 242CA0BC2B40A1C0002FF555 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		242CA0C32B40A1C0002FF555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		242CA0C42B40A1C0002FF555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		242CA0C62B40A1C0002FF555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Task Overboard/Task_Overboard.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Task Overboard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrischinchilla.Task-Overboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		242CA0C72B40A1C0002FF555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Task Overboard/Task_Overboard.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Task Overboard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrischinchilla.Task-Overboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		242CA0C92B40A1C0002FF555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrischinchilla.Task-OverboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Task Overboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Task Overboard";
+			};
+			name = Debug;
+		};
+		242CA0CA2B40A1C0002FF555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrischinchilla.Task-OverboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Task Overboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Task Overboard";
+			};
+			name = Release;
+		};
+		242CA0CC2B40A1C0002FF555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrischinchilla.Task-OverboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Task Overboard";
+			};
+			name = Debug;
+		};
+		242CA0CD2B40A1C0002FF555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrischinchilla.Task-OverboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Task Overboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		242CA09B2B40A1BF002FF555 /* Build configuration list for PBXProject "Task Overboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242CA0C32B40A1C0002FF555 /* Debug */,
+				242CA0C42B40A1C0002FF555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		242CA0C52B40A1C0002FF555 /* Build configuration list for PBXNativeTarget "Task Overboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242CA0C62B40A1C0002FF555 /* Debug */,
+				242CA0C72B40A1C0002FF555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		242CA0C82B40A1C0002FF555 /* Build configuration list for PBXNativeTarget "Task OverboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242CA0C92B40A1C0002FF555 /* Debug */,
+				242CA0CA2B40A1C0002FF555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		242CA0CB2B40A1C0002FF555 /* Build configuration list for PBXNativeTarget "Task OverboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242CA0CC2B40A1C0002FF555 /* Debug */,
+				242CA0CD2B40A1C0002FF555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 242CA0982B40A1BF002FF555 /* Project object */;
+}
